@@ -1,0 +1,23 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+  /*font-family: 'Karla', sans-serif;*/
+  font-family: 'Inter', sans-serif;
+}
+
+#app {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  place-items: center;
+  font-size: 2rem;
+}
+
+ul {
+  font-size: 1.5rem;
+}
+ul#completedList {
+  text-decoration: line-through;
+  color: #8d8d8d;
+}
